@@ -1,34 +1,9 @@
-/*
-  Smart MacroPad POC Firmware
-  Board target: Seeed XIAO ESP32S3 / ESP32-S3 with native USB
-
-  What this proves:
-  - 6 keys work
-  - rotary encoder works
-  - knob press changes mode
-  - OLED displays current mode + last action
-  - optional USB keyboard/media shortcuts can be added later
-
-  Libraries needed in Arduino IDE:
-  - Adafruit GFX Library
-  - Adafruit SSD1306
-
-  Change the pin numbers below to match your final PCB.
-*/
-
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-// -------- OLED SETTINGS --------
-#define SCREEN_WIDTH 128
-#define SCREEN_HEIGHT 64
-#define OLED_ADDR 0x3C
-
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-// -------- RANDOM POC PIN NUMBERS - CHANGE LATER --------
-// Keys: one side of each switch to GPIO, other side to GND.
 const int KEY_COUNT = 6;
 const int keyPins[KEY_COUNT] = {1, 2, 3, 4, 5, 6};
 
@@ -41,10 +16,8 @@ const int ENC_SW = 9;    // knob press
 const int OLED_SDA = 10;
 const int OLED_SCL = 11;
 
-// Optional OLED reset pin. Set to -1 if not used.
 const int OLED_RST = -1;
 
-// -------- STATE --------
 bool lastKeyState[KEY_COUNT];
 bool lastEncButtonState = HIGH;
 int lastEncA = HIGH;
