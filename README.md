@@ -1,6 +1,8 @@
 # SmartPAD
 Custom Macropad that I can alternate between Wall Mode (where it acts like a smart home device and can change things around the house) and Keyboard Mode (where it acts as an extension of my keyboard and could do certain programmable things).
 
+EasyEDA link: https://oshwlab.com/neev.dharod/project_qsxulqkk
+
 # CAD
 
 Onshape Link: https://cad.onshape.com/documents/78aa9a4f8f3dff9ac8d289c6/w/14a2d0494b635a78e9d4ba0a/e/a2543730fb8388abf7394891?renderMode=0&uiState=6a3596b5da4b181361d0cce9
