@@ -45,3 +45,21 @@ To create this project, first I will order the parts for this project.
 # Potential Challenges
 
 Some potential challenges I might have are the CAD being slightly off, since I am using AliExpress which is not very exact for their measurements. This can be easily fixable, since I have a digital caliper I can use to make sure my measurements and things are exact. Another challenge I might face is my soldering, since I have never soldered before, but one of my friends who solders alot will help me so this shouldn't be an issue. I will also practice soldering before trying on the PCB.
+
+
+# BOM
+| Recommended part / description                                                    | Qty | Source / buy link                                                 | total (USD) |
+|-----------------------------------------------------------------------------------|-----|-------------------------------------------------------------------|-------------|
+| Seeed Studio XIAO ESP32S3                                                         | 1   | https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html              | $13.08      |
+| 2.42 inch OLED Display Module 128x64 SSD1309, I2C/IIC interface, white, black PCB | 1   | https://www.aliexpress.com/item/3256811431549511.html             | $12.22      |
+| Gateron Milky Yellow Pro V3 MX-style switches                                     | 1   | https://www.aliexpress.com/item/3256812103948628.html             | $4.57       |
+| Kailh MX hot-swap sockets CPG151101S11-1                                          | 1   | https://holykeebs.com/products/kailh-mx-hotswap-sockets-10-pack   | $2.12       |
+| JCD 10PCS blank 1U XDA keycaps, MX compatible                                     | 1   | https://www.aliexpress.com/item/3256808218107778.html             | $4.15       |
+| EC11 rotary encoder with push button, 15mm shaft option                           | 1   | https://www.aliexpress.com/item/3256806273846536.html             | $0.75       |
+| 6mm shaft aluminum/alloy knob cap                                                 | 1   | https://www.aliexpress.com/item/3256805576156240.html             | $1.98       |
+| JLCPCB custom 2-layer PCB, 110mm x 70mm, 5 pcs                                    | 1   | https://jlcpcb.com/                                               | $8.40       |
+| 1x7 2.54mm through-hole pin header                                                | 1   | https://www.aliexpress.com/w/wholesale-1x7-2.54mm-pin-header.html | $15.58      |
+| Dupont/jumper wire kit or silicone hookup wire                                    | 1   | https://www.aliexpress.com/w/wholesale-dupont-wire-kit.html       | $2.93       |
+| Soldering wire                                                                    | 1   | https://www.aliexpress.com/w/wholesale-m3-screw-assortment.html   | $14.12      |
+|                                                                                   |     | Total                                                             | $79.90      |
+|                                                                                   |     | Discounts In Total                                                | $58.40      |
